@@ -1,0 +1,12 @@
+# Core environment:
+#   Python 3.12 (Ubuntu 22.04), CUDA 12.1, single 32 GB GPU
+# Install PyTorch matching your CUDA build, e.g. (CUDA 12.1):
+#   pip install torch==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+torch==2.3.0
+numpy
+pandas
+scipy
+matplotlib
+# The training/evaluation pipeline (run.py, data loaders, baselines) is provided
+# by the Time-Series-Library: https://github.com/thuml/Time-Series-Library
+# See its own requirements for the full training stack.

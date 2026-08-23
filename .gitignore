@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+dataset/
+checkpoints/
+test_results/
+result_*.txt
+*.log
